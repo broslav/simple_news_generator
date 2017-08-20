@@ -14,24 +14,6 @@ export class App extends Component {
     constructor(props) {
         super(props);
 
-        // this.routes = [
-        //     {
-        //         path: '/',
-        //         exact: true,
-        //         sidebar: (props) => <Sidebar topicList={this.state.topicList}
-        //                                      setTopic={this.handleTopicChange}
-        //                                      topicFilter={this.state.topicFilter} {...props}/>,
-        //         main: (props, state) => <Main handleScroll={this.handleScroll}
-        //                                       topicFilter={this.state.topicFilter} {...props}/>
-        //     },
-        //     {
-        //         path: '/sources',
-        //         exact: true,
-        //         sidebar: () => <Sidebar/>,
-        //         main: () => <Sources/>
-        //     }
-        // ];
-
         this.state = {
             topicFilter: ''
         };
@@ -46,7 +28,6 @@ export class App extends Component {
     }
 
     render() {
-
         return (
             <Router>
                 <div className="main-wrapper">
@@ -84,7 +65,6 @@ export class App extends Component {
                 </div>
             </Router>
         )
-
     }
 }
 

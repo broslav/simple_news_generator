@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-
 import {SourceItem}from './SourceItem';
-
 import {getSources} from '../api/api';
 
 export class Sources extends Component {

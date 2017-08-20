@@ -16,7 +16,6 @@ export class Main extends Component {
             newsCount: 30
         };
 
-
         this.handleScroll = this.handleScroll.bind(this);
 
     }
